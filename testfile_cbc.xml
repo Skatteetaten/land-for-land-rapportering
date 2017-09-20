@@ -37,7 +37,7 @@
 		</n1:Entity>
 		<n1:ReportingRole>CBC701</n1:ReportingRole>
 		<n1:DocSpec>
-			<n2:DocTypeIndic>OECD1</n2:DocTypeIndic>
+			<n2:DocTypeIndic>OECD11</n2:DocTypeIndic>
 			<n2:DocRefId>Unique Identifier1</n2:DocRefId>
 		</n1:DocSpec>
 	</n1:ReportingEntity>
