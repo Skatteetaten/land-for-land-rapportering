@@ -50,17 +50,17 @@
 		<n1:ResCountryCode>SE</n1:ResCountryCode>
 		<n1:Summary>
 			<n1:Revenues>
-				<n1:Unrelated currCode="SEK">150000</n1:Unrelated>
-				<n1:Related currCode="SEK">250000</n1:Related>
-				<n1:Total currCode="SEK">400000</n1:Total>
+				<n1:Unrelated currCode="NOK">150000</n1:Unrelated>
+				<n1:Related currCode="NOK">250000</n1:Related>
+				<n1:Total currCode="NOK">400000</n1:Total>
 			</n1:Revenues>
-			<n1:ProfitOrLoss currCode="SEK">1000000</n1:ProfitOrLoss>
-			<n1:TaxPaid currCode="SEK">150000</n1:TaxPaid>
-			<n1:TaxAccrued currCode="SEK">100000</n1:TaxAccrued>
-			<n1:Capital currCode="SEK">10000000</n1:Capital>
-			<n1:Earnings currCode="SEK">1500000</n1:Earnings>
+			<n1:ProfitOrLoss currCode="NOK">1000000</n1:ProfitOrLoss>
+			<n1:TaxPaid currCode="NOK">150000</n1:TaxPaid>
+			<n1:TaxAccrued currCode="NOK">100000</n1:TaxAccrued>
+			<n1:Capital currCode="NOK">10000000</n1:Capital>
+			<n1:Earnings currCode="NOK">1500000</n1:Earnings>
 			<n1:NbEmployees>10</n1:NbEmployees>
-			<n1:Assets currCode="SEK">2000000</n1:Assets>
+			<n1:Assets currCode="NOK">2000000</n1:Assets>
 		</n1:Summary>
 		<n1:ConstEntities>
 			<n1:ConstEntity>
@@ -97,17 +97,17 @@
 		<n1:ResCountryCode>DK</n1:ResCountryCode>
 		<n1:Summary>
 			<n1:Revenues>
-				<n1:Unrelated currCode="DKK">350000</n1:Unrelated>
-				<n1:Related currCode="DKK">700000</n1:Related>
-				<n1:Total currCode="DKK">600000</n1:Total>
+				<n1:Unrelated currCode="NOK">350000</n1:Unrelated>
+				<n1:Related currCode="NOK">700000</n1:Related>
+				<n1:Total currCode="NOK">600000</n1:Total>
 			</n1:Revenues>
-			<n1:ProfitOrLoss currCode="DKK">7000000</n1:ProfitOrLoss>
-			<n1:TaxPaid currCode="DKK">220000</n1:TaxPaid>
-			<n1:TaxAccrued currCode="DKK">200000</n1:TaxAccrued>
-			<n1:Capital currCode="DKK">60000000</n1:Capital>
-			<n1:Earnings currCode="DKK">5500000</n1:Earnings>
+			<n1:ProfitOrLoss currCode="NOK">7000000</n1:ProfitOrLoss>
+			<n1:TaxPaid currCode="NOK">220000</n1:TaxPaid>
+			<n1:TaxAccrued currCode="NOK">200000</n1:TaxAccrued>
+			<n1:Capital currCode="NOK">60000000</n1:Capital>
+			<n1:Earnings currCode="NOK">5500000</n1:Earnings>
 			<n1:NbEmployees>10</n1:NbEmployees>
-			<n1:Assets currCode="DKK">3000000</n1:Assets>
+			<n1:Assets currCode="NOK">3000000</n1:Assets>
 		</n1:Summary>
 		<n1:ConstEntities>
 			<n1:ConstEntity>
