@@ -17,8 +17,8 @@
 	<n1:ReportingEntity>
 		<n1:Entity>
 			<n1:ResCountryCode>NO</n1:ResCountryCode>
-			<n1:TIN>00000000</n1:TIN>
-			<n1:IN>issuedBy="NO" INType="type"</n1:IN>
+			<n1:TIN issuedBy="NO">00000000</n1:TIN>
+			<n1:IN issuedBy="NO" INType="type">000000000</n1:IN>
 			<n1:Name>REPORTING TEST ORGANIZATION</n1:Name>
 			<n1:Address>
 				<n1:CountryCode>NO</n1:CountryCode>
@@ -41,6 +41,53 @@
 			<n2:DocRefId>Unique Identifier1</n2:DocRefId>
 		</n1:DocSpec>
 	</n1:ReportingEntity>
+	<!--Report #0-->
+	<n1:CbcReports>
+		<n1:DocSpec>
+			<n2:DocTypeIndic>OECD11</n2:DocTypeIndic>
+			<n2:DocRefId>Unique Identifier0</n2:DocRefId>
+		</n1:DocSpec>
+		<n1:ResCountryCode>NO</n1:ResCountryCode>
+		<n1:Summary>
+			<n1:Revenues>
+				<n1:Unrelated currCode="NOK">190000</n1:Unrelated>
+				<n1:Related currCode="NOK">250000</n1:Related>
+				<n1:Total currCode="NOK">300000</n1:Total>
+			</n1:Revenues>
+			<n1:ProfitOrLoss currCode="NOK">1000000</n1:ProfitOrLoss>
+			<n1:TaxPaid currCode="NOK">150000</n1:TaxPaid>
+			<n1:TaxAccrued currCode="NOK">100000</n1:TaxAccrued>
+			<n1:Capital currCode="NOK">80000000</n1:Capital>
+			<n1:Earnings currCode="NOK">1500000</n1:Earnings>
+			<n1:NbEmployees>30</n1:NbEmployees>
+			<n1:Assets currCode="NOK">2500000</n1:Assets>
+		</n1:Summary>
+		<n1:ConstEntities>
+			<n1:ConstEntity>
+				<n1:ResCountryCode>NO</n1:ResCountryCode>
+			<n1:TIN issuedBy="NO">00000000</n1:TIN>
+			<n1:IN issuedBy="NO" INType="type">0000000000</n1:IN>
+			<n1:Name>COST ENTITY #0</n1:Name>
+			<n1:Address>
+				<n1:CountryCode>NO</n1:CountryCode>
+				<n1:AddressFix>
+					<n1:Street>Street Name</n1:Street>
+					<n1:BuildingIdentifier>Identifier0</n1:BuildingIdentifier>
+					<n1:SuiteIdentifier>Identifier2</n1:SuiteIdentifier>
+					<n1:FloorIdentifier>Identifier3</n1:FloorIdentifier>
+					<n1:DistrictName>District Name</n1:DistrictName>
+					<n1:POB>POB1</n1:POB>
+					<n1:PostCode>Postal Code</n1:PostCode>
+					<n1:City>Oslo</n1:City>
+					<n1:CountrySubentity>Sub Entitiy</n1:CountrySubentity>
+				</n1:AddressFix>
+			</n1:Address>
+			</n1:ConstEntity>
+			<n1:IncorpCountryCode>NO</n1:IncorpCountryCode>
+			<n1:BizActivities>CBC504</n1:BizActivities>
+			<n1:OtherEntityInfo>Other info</n1:OtherEntityInfo>
+		</n1:ConstEntities>
+	</n1:CbcReports>
 	<!--Report #1-->
 	<n1:CbcReports>
 		<n1:DocSpec>
@@ -65,8 +112,8 @@
 		<n1:ConstEntities>
 			<n1:ConstEntity>
 				<n1:ResCountryCode>SE</n1:ResCountryCode>
-			<n1:TIN>00000001</n1:TIN>
-			<n1:IN>issuedBy="SE" INType="type"</n1:IN>
+			<n1:TIN issuedBy="SE">00000001</n1:TIN>
+			<n1:IN issuedBy="SE" INType="type">0000000000</n1:IN>
 			<n1:Name>COST ENTITY #1</n1:Name>
 			<n1:Address>
 				<n1:CountryCode>SE</n1:CountryCode>
@@ -112,8 +159,8 @@
       <n1:ConstEntities>
         <n1:ConstEntity>
          <n1:ResCountryCode>FI</n1:ResCountryCode>
-			<n1:TIN>00000002</n1:TIN>
-			<n1:IN>issuedBy="FI" INType="type"</n1:IN>
+			<n1:TIN issuedBy="FI">00000002</n1:TIN>
+			<n1:IN issuedBy="FI" INType="type">000000</n1:IN>
 			<n1:Name>COST ENTITY #2</n1:Name>
 			<n1:Address>
 				<n1:CountryCode>FI</n1:CountryCode>
@@ -137,8 +184,8 @@
       <n1:ConstEntities>
         <n1:ConstEntity>
          <n1:ResCountryCode>FI</n1:ResCountryCode>
-			<n1:TIN>00000003</n1:TIN>
-			<n1:IN>issuedBy="FI" INType="type"</n1:IN>
+			<n1:TIN issuedBy="FI">00000003</n1:TIN>
+			<n1:IN issuedBy="FI" INType="type">00000000000</n1:IN>
 			<n1:Name>COST ENTITY #3</n1:Name>
 			<n1:Address>
 				<n1:CountryCode>FI</n1:CountryCode>
@@ -162,8 +209,8 @@
       <n1:ConstEntities>
         <n1:ConstEntity>
          <n1:ResCountryCode>FI</n1:ResCountryCode>
-			<n1:TIN>00000004</n1:TIN>
-			<n1:IN>issuedBy="FI" INType="type"</n1:IN>
+			<n1:TIN issuedBy="FI">00000004</n1:TIN>
+			<n1:IN issuedBy="FI" INType="type">00000000</n1:IN>
 			<n1:Name>COST ENTITY #4</n1:Name>
 			<n1:Address>
 				<n1:CountryCode>FI</n1:CountryCode>
@@ -209,8 +256,8 @@
 		<n1:ConstEntities>
 			<n1:ConstEntity>
 				<n1:ResCountryCode>DK</n1:ResCountryCode>
-			<n1:TIN>00000005</n1:TIN>
-			<n1:IN>issuedBy="DK" INType="type"</n1:IN>
+			<n1:TIN issuedBy="DK">00000005</n1:TIN>
+			<n1:IN issuedBy="DK" INType="type">00000000</n1:IN>
 			<n1:Name>COST ENTITY #5</n1:Name>
 			<n1:Address>
 				<n1:CountryCode>DK</n1:CountryCode>
